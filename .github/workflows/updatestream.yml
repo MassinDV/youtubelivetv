@@ -40,7 +40,7 @@ jobs:
       - name: update streams
         run: |
           pwd
-          python3 index.py "https://www.youtube.com/c/aquariusmusikindo/live" > akuarius.m3u8
+          python3 index.py "https://www.youtube.com/channel/UCRN5ho3UGhUi7ZCBe2G2f2w/live" > ma3.m3u8
           sleep 15
           python3 index.py "https://www.youtube.com/watch?v=0Kln8aj0v3E" > beenchenel.m3u8
           sleep 15
